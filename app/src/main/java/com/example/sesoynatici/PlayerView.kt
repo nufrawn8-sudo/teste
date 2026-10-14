@@ -129,8 +129,6 @@ class PlayerView(context: Context) : View(context) {
                 c.drawRoundRect(x, cy - hh, x + 2f * s, cy + hh, s, s, fill)
             }
         }
-        fill.color = Color.argb(140, 0, 0, 0)
-        c.drawRect(195f * s, st, 207f * s, st + 50f * s, fill)
         fill.color = blue
         c.drawRect(206.5f * s, st, 208f * s, st + 50f * s, fill)
 
